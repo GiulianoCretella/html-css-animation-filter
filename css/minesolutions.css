@@ -52,5 +52,14 @@
     transition: all 2s;
 }
 .ex-7-img:hover{
-    filter: sepia(70%);
+    filter: sepia(70%) contrast(70%);
+}
+
+/* esercizio n8 */
+.ex-8-img{
+    transition: all 2s;
+}
+.ex-8-img:hover{
+    filter: grayscale(70%) saturate(100%);
+    border-radius: 5%;
 }
