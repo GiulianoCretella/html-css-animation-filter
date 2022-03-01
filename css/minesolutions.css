@@ -73,3 +73,22 @@ transition: all 2s;
     border-radius: 5%;
     transform: scale(1.5);
 }
+
+/* eserccizio n10 */
+.ex-10-icon{
+  animation-name: example;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+@keyframes example { 
+    from{ 
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+   
+}
+
