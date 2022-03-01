@@ -17,7 +17,7 @@
 
 /* esercizio n3 */
 .ex-3-square{
-transition: all 0.5s;
+    transition: all 0.5s;
 }
 .ex-3-square:hover{
     border-radius: 50%;
@@ -25,8 +25,19 @@ transition: all 0.5s;
 
 /* esercizio n4 */
 .ex-4-square{
-transition: all 2s;
+   transition: all 2s;
 }
 .ex-4-square:hover{
    opacity: 0;
+}
+
+/* esercizio n5 */
+.ex-5-square{
+    transition: all 1s;
+}
+.ex-5-square:hover{
+   transform: scale(2);
+}
+.ex-5-square:active{
+   transform: scale(0.5);
 }
