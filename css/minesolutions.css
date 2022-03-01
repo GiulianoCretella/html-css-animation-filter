@@ -146,3 +146,124 @@ transition: all 2s;
         right: 20%;
     }
 }
+
+/* esercizio n13 */
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: example13-1 2s linear;
+}
+@keyframes example13-1 {
+    0%{
+        left: 10%;
+        top: -10px;
+    }
+    10%{
+        left: 50%;
+        top: -10px;
+    }
+    15%{
+        left: 100%;
+        top: -10px;
+    }
+    20%{
+        left: 100%;
+        top: 20%;
+    }
+    25%{
+        left: 100%;
+        top: 60%;
+    }
+    30%{
+        left: 100%;
+        top: 100%;
+    }
+    40%{
+        left: 80%;
+        top: 100%;
+    }
+    50%{
+        left: 50%;
+        top: 100%;
+    }
+    60%{
+        left: 30%;
+        top: 100%;
+    }
+
+    70%{
+        left: -10px;
+        top: 100%;
+    }
+    80%{
+        left: -10px;
+        top: 50%;
+    }
+    90%{
+        left: -10px;
+        top: -10px;
+    }
+    100%{
+        left: 10%;
+        top: -10px;
+    }
+    
+}
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: example13-2 2s linear;
+}
+@keyframes example13-2 {
+    0%{
+        right: 10%;
+        bottom: -10px;
+    }
+    10%{
+        right: 50%;
+        bottom: -10px;
+    }
+    15%{
+        right: 80%;
+        bottom: -10px;
+    }
+    20%{
+       right: 80%;
+        bottom: 20%;
+    }
+    25%{
+       right: 80%;
+        bottom: 60%;
+    }
+    30%{
+       right: 80%;
+       bottom: 100%;
+    }
+    40%{
+        right: 80%;
+        bottom: 100%;
+    }
+    50%{
+        right: 50%;
+        bottom: 100%;
+    }
+    60%{
+        right: 30%;
+       bottom: 100%;
+    }
+
+    70%{
+       right: -10px;
+        bottom: 100%;
+    }
+    80%{
+        right: -10px;
+        bottom: 50%;
+    }
+    90%{
+        right: -10px;
+        bottom: -10px;
+    }
+    100%{
+        right: 10%;
+        bottom: -10px;
+    }
+}
+
