@@ -63,3 +63,13 @@
     filter: grayscale(70%) saturate(100%);
     border-radius: 5%;
 }
+
+/* esercizio n9 */
+.ex-9-img{
+transition: all 2s;
+}
+.ex-9-img:hover{
+    filter: sepia(70%) contrast(70%);
+    border-radius: 5%;
+    transform: scale(1.5);
+}
